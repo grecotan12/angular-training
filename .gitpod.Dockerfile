@@ -1,5 +1,5 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace
 
 USER gitpod
 
-RUN bash -c "npm install -g @angular/cli"
+RUN bash -c "npm install -g @angular/cli@14.0.7"
